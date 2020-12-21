@@ -37,3 +37,5 @@ Esto es una pruba para las ramas
 
 git branch nombre, una nueva rama desde la version en la que estoy en ese momento. 
 git checkout nombre, paso de rama a rama
+
+Para realizar el merge tengo que estar primero en la rama master o en la rama donde quiero seguir desarrollando. 
