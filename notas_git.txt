@@ -1,0 +1,5 @@
+Para iniciar git uso el comando git init en la terminal 
+pero primero tengo que estar en la carpeta donde va a estar 
+mi proyecto.
+
+git status, me dice cual es el estado actual del repositorio
