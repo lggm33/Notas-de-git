@@ -11,6 +11,7 @@ git status, me dice cual es el estado actual del repositorio
 
 git add nombre.ext del archivo, trakea los archivos y de esta forma puede git detectar los cambios en el codigo,
 es necesario usarlo primero para hacer el commit. Tambien se puede usar git add . para añadir todos los archivos con cambios.
+git commit -am, hace el commit sin tener que hacer el add pero solo funciona con archivos que anteriormente les hubiese hecho add
 
 git rm --cach, elimina el add, lo uso en caso de algun error
 
@@ -24,7 +25,13 @@ Si uso git commit me abre Bim, un editor de texto de linea de comandos, para com
 
 git diff #de commit #de commit, este comando lo uso despuues de git log para copiar y pegar los numeros de commit y comparar 2 versiones del archivo.
 
+git rm --cached: Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
+
+git reset HEAD: Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+
 Para volver a anteriores versiones uso git reset o chekout. 
 Reset #commit hard me alimina todas las versiones que van despues de ese commit en particular, no usar a menos que sea sumamente necesario.
+git checkout #commit file, esto me regresa a una version anterior, para guardar los cambios sigo el proceso normal add y commit, pero para volver a la ultima version pongo git checkout master file. 
+
 
 
