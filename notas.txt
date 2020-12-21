@@ -23,8 +23,3 @@ git show nombre.ext, muestra la comparacion con los cambios de los diferentes co
 Si uso git commit me abre Bim, un editor de texto de linea de comandos, para comenzar a escribir preciono esc + i y para guardar el mensaje esc + shift + z + z.
 
 git diff #de commit #de commit, este comando lo uso despuues de git log para copiar y pegar los numeros de commit y comparar 2 versiones del archivo.
-
-Para volver a anteriores versiones uso git reset o chekout. 
-Reset #commit hard me alimina todas las versiones que van despues de ese commit en particular, no usar a menos que sea sumamente necesario.
-
-
