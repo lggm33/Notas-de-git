@@ -34,3 +34,6 @@ Reset #commit hard me alimina todas las versiones que van despues de ese commit 
 git checkout #commit file, esto me regresa a una version anterior, para guardar los cambios sigo el proceso normal add y commit, pero para volver a la ultima version pongo git checkout master file. 
 
 Esto es una pruba para las ramas
+
+git branch nombre, una nueva rama desde la version en la que estoy en ese momento. 
+git checkout nombre, paso de rama a rama
